@@ -1,0 +1,145 @@
+/* ---------------------------------------------- /*
+ * header
+/* ---------------------------------------------- */
+.navbar-brand {
+  margin-top: -8px;
+}
+
+.navbar-default {
+  background-color: white;
+}
+
+.navbar {
+  margin-bottom: 0px;
+/*  	color: #00859B;*/
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+  /* background-color: #e7e7e7; */
+  color: #00859B;
+  font-weight: bold;
+  background-color: white;
+}
+
+a {
+	color: grey;
+}
+
+
+.nav > li > a {
+  padding: 12px 15px;
+}
+
+/* ---------------------------------------------- /*
+ * body
+/* ---------------------------------------------- */
+
+body { 
+	padding-top: 50px;
+	padding-bottom: 0;
+}
+
+img {
+	width: 100%;
+}
+
+h1, h2, h3, h4, h5 {
+	text-align: center;
+}
+
+p {
+	text-align: left;
+	line-height: 1.5em;
+	color: #666766;
+}
+
+.pfblock-subtitle {
+	color: #666766;
+}
+
+.pfblock-header {
+	line-height: 2em;
+	font-size: 1.25em;
+	text-align: center;
+}
+
+
+ 
+
+.pfblock-subtitle {
+	padding-bottom: 50px;
+}
+
+.thumbnail {
+    text-align:center;
+
+}
+
+.thumbnail img {
+	width: 48px;
+}
+
+.thumbnail > li {
+    display: inline-block;
+    *display:inline; /* ie7 fix */
+    float: none; /* this is the part that makes it work */
+}
+
+
+#contact {
+	text-align: center;
+	background-color: #F2F2F2;
+	margin-top: 50px;
+	padding-top: 25px;
+	padding-bottom: 50px;
+}
+
+
+#contact p {
+	text-align: center;
+	font-size: 1.25em;
+}
+
+
+
+
+hr {
+	padding: 20px 0;
+}
+
+
+
+/* ---------------------------------------------- /*
+ * jumbotron
+/* ---------------------------------------------- */
+
+.jumbotron {
+	color: white;
+	 background: url("../images/item-3.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+
+
+
+.jumbotron p {
+	text-align: center;
+}
+
+
+/* ---------------------------------------------- /*
+ * footer
+/* ---------------------------------------------- */
+footer {
+	background-color: black;
+	color: white;
+	padding: 45px 0;
+}
+
+footer p {
+	text-align: center;
+}
